@@ -9,10 +9,17 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        romanticPink: "#ff9a9e",
+        romanticPeach: "#fad0c4",
+        deepRose: "#d63384",
+        softWhite: "#fff7f8",
+      },
+      fontFamily: {
+        romantic: ["Dancing Script", "cursive"],
       },
     },
   },
   plugins: [],
 } satisfies Config;
+
+
