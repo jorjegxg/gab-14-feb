@@ -3,10 +3,12 @@ import Calendar from "./components/Calendar";
 import Cronometru from "./components/Cronometru";
 import FancyText from "./components/FancyText";
 import LazyShow from "./components/LazyShow";
+import MusicPlayer from "./components/MusicPlayer";
 
 export default function Home() {
   return (
     <>
+    <MusicPlayer />
       <div className="bg-gradient-to-r to-pink-200 via-red-200 from-blue-200">
 
 
