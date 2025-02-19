@@ -1,8 +1,8 @@
 "use client";
-import Cronometru from "./components/Cronometru";
-import LazyShow from "./components/LazyShow";
 import Calendar from "./components/Calendar";
+import Cronometru from "./components/Cronometru";
 import FancyText from "./components/FancyText";
+import LazyShow from "./components/LazyShow";
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
           <Calendar />
         </LazyShow>
 
-        <div className="max-md:hidden">
+        <div className="">
 
           <LazyShow>
             <div className='flex  justify-center'>
