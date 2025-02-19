@@ -72,3 +72,12 @@ export default function Home() {
     </>
   );
 }
+
+// Această funcție generează pagina static la build
+export async function getStaticProps() {
+  return {
+    props: {
+      message: "Acest text este generat static!",
+    },
+  };
+}
