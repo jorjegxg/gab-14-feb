@@ -1,10 +1,12 @@
+"use client";
+
 // app/components/Calendar.tsx
 
-import React, { useState, useEffect } from 'react';
 import { eachDayOfInterval, format, isSameDay } from 'date-fns';
-import LazyShow from './LazyShow';
-import { ButtonIcon } from './ButtonIcon';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { useEffect, useState } from 'react';
+import { ButtonIcon } from './ButtonIcon';
+import LazyShow from './LazyShow';
 
 // Date speciale (de exemplu, evenimente importante)
 const specialDates = [
