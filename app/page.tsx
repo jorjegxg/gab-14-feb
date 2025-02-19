@@ -29,7 +29,7 @@ export default function Home() {
                 muted
                 className="top-0 left-0 w-full h-[600px]  object-cover z-0"
               >
-                <source src="/Gab/video_gabi.mp4" type="video/mp4" />
+                <source src="../public/GAB/video_gabi.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
 
