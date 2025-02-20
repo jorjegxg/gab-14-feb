@@ -70,7 +70,7 @@ const Calendar = () => {
 
       {/* Calendar pentru ultimele 4 luni */}
       <LazyShow>
-        <div className="grid lg:grid-cols-4 gap-4">
+        <div className="grid md:grid-cols-2 lg:gid-cols-4 gap-4">
           {months.map((monthDate, index) => {
             const days = getDaysInMonth(monthDate.getMonth(), monthDate.getFullYear());
             return (

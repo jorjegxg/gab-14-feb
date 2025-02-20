@@ -16,9 +16,9 @@ export default function Home() {
         <LazyShow>
           <Cronometru />
         </LazyShow>
-        <div className="flex justify-center items-center pb-4" >
+        {/* <div className="flex justify-center items-center pb-4" >
           Probleme peste care am trecut împreună : 0
-        </div>
+        </div> */}
 
         <LazyShow>
           <Calendar />
@@ -32,7 +32,7 @@ export default function Home() {
                 autoPlay
                 loop
                 muted
-                className="top-0 left-0 w-full h-[600px]  object-cover z-0"
+                className="top-0 left-0 w-full   object-cover z-0"
               >
                 <source src="/GAB/video_gabi.mp4" type="video/mp4" />
                 Your browser does not support the video tag.

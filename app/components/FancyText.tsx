@@ -25,7 +25,7 @@ const FancyText = () => {
     <div>
       {showText && (
         <p style={{ fontFamily: 'Cedarville Cursive', fontSize: '30px' }}>
-          Pur și simplu 
+          Pur si simplu 
         </p>
       )}
     </div>
