@@ -4,11 +4,11 @@ import { useEffect, useState } from "react";
 
 const Cronometru = () => {
   // Data și ora de start
-  const startDate = new Date("2025-01-27T17:40:00");
-
+  
   const [timeElapsed, setTimeElapsed] = useState<string>("");
-
+  
   useEffect(() => {
+    const startDate = new Date("2025-01-27T17:40:00");
     const interval = setInterval(() => {
       const now = new Date();
       const difference = now.getTime() - startDate.getTime(); // Calculăm diferența de timp
