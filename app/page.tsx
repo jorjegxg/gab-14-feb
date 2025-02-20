@@ -6,21 +6,18 @@ import HugCoupon from "./components/HugCoupon";
 import LazyShow from "./components/LazyShow";
 import MusicPlayer from "./components/MusicPlayer";
 
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 export default function Home() {
   return (
     <>
+    <ToastContainer/>
     <MusicPlayer />
       <div className="bg-gradient-to-r to-pink-200 via-red-200 from-blue-200">
-
-
-
         <LazyShow>
           <Cronometru />
         </LazyShow>
-        {/* <div className="flex justify-center items-center pb-4" >
-          Probleme peste care am trecut împreună : 0
-        </div> */}
-
         <LazyShow>
           <Calendar />
         </LazyShow>
