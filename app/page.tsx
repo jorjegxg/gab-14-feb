@@ -2,6 +2,7 @@
 import Calendar from "./components/Calendar";
 import Cronometru from "./components/Cronometru";
 import FancyText from "./components/FancyText";
+import HugCoupon from "./components/HugCoupon";
 import LazyShow from "./components/LazyShow";
 import MusicPlayer from "./components/MusicPlayer";
 
@@ -22,6 +23,10 @@ export default function Home() {
 
         <LazyShow>
           <Calendar />
+        </LazyShow>
+
+        <LazyShow>
+          <HugCoupon />
         </LazyShow>
 
         <div className="">
