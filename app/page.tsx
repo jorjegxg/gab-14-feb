@@ -23,7 +23,7 @@ export default function Home() {
 
         <div className="">
 
-          {/* <LazyShow>
+          <LazyShow>
             <div className='flex  justify-center'>
               <video
                 autoPlay
@@ -37,7 +37,7 @@ export default function Home() {
 
 
             </div>
-          </LazyShow> */}
+          </LazyShow>
 
         </div>
 
