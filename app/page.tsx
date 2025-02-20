@@ -16,6 +16,9 @@ export default function Home() {
         <LazyShow>
           <Cronometru />
         </LazyShow>
+        <div className="flex justify-center items-center pb-4" >
+          Probleme peste care am trecut împreună : 0
+        </div>
 
         <LazyShow>
           <Calendar />
