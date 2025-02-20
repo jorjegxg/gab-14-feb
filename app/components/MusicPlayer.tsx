@@ -13,7 +13,7 @@ const MusicPlayer: React.FC = () => {
 
   return (
     <audio ref={audioRef}>
-      <source src="../../public/rose.mp3" type="audio/mp3" />
+      <source src="./rose.mp3" type="audio/mp3" />
       Your browser does not support the audio element.
     </audio>
   );
